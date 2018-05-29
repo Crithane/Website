@@ -23,15 +23,16 @@
 
   <!-- Top Navbar -->
   <nav class="navbar navbar-expand-md navbar-dark ">
-    <div class="container inner">
+
+    <div class="container">
 
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="navbar-brand">Aaron Cunliffe</a>
+          <span class="navbar-brand mx-auto">Aaron Cunliffe</span>
         </li>
       </ul>
 
-<!--
+      <!--
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,16 +54,17 @@
     </div>
   
   -->
-</nav>
+
+
+    </div>
+
+  </nav>
 
   <div class="container-fluid">
-
-
     <div class="row">
 
-
       <div class="col-md-2 offset-md-2">
-        <img src="https://avatars2.githubusercontent.com/u/7946141?s=460&v=4" height="250" width="250" class="img-fluid  mx-auto rounded">
+        <img src="https://avatars2.githubusercontent.com/u/7946141?s=460&v=4" height="250" width="250" class="img-fluid mx-auto rounded profile-picture">
 
 
       </div>
@@ -73,47 +75,191 @@
           Graduating in July 2018 from UCLan with a degree in Software engineering with Honours - Expecting a first degree classification.
         </p>
         <p>
-          My university course has taught me a great deal about modern software development practices, including traditional and Agile techniques.
-          With a focus on OOP development methods applied mainly in C++ and Java. I have undertaken many personal projects outside of university and these can be found
-          on my github. In the process of searching for a job I am also self-learning to fill the holes in what I have been taught.
-
+          My university course has taught me a great deal about modern software development practices including Agile methodologies
+          and techniques. Object-oriented programming principles were taught and applied in C++ and Java. I have undertaken
+          many personal projects outside of university and these can be found on my github. In the process of searching for
+          a job I am also self-learning to fill the holes in what I have been taught.
         </p>
-        
+
+        <ul class="list-inline banner-social-buttons ml-auto">
+          <li class="list-inline-item">
+            <a href="https://github.com/Aaroncunliffe" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-github-square fa-fw"></i>
+              <span class="network-name">Github</span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/aaron-cunliffe-727695131/" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-linkedin-square fa-fw"></i>
+              <span class="network-name">Linkedin</span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="https://medium.com/@aaroncunliffe" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-medium fa-fw"></i>
+              <span class="network-name">Medium</span>
+            </a>
+          </li>
+
+          <li class="list-inline-item">
+            <a href="mailto:aaroncunliffe@live.co.uk" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-envelope-o fa-fw"></i>
+              <span class="network-name">Email: aaroncunliffe@live.co.uk</span>
+            </a>
+          </li>
+        </ul>
 
       </div>
 
-      <div class="container-fluid">
+    </div>
+  </div>
 
-        <div class="row">
-          
-          <div class="col-md-6 offset-md-4">
 
-            <ul class="list-inline banner-social-buttons ml-auto">
-              <li class="list-inline-item">
-                <a href="https://github.com/Aaroncunliffe" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
-                  <i class="fa fa-github-square fa-fw"></i>
-                  <span class="network-name">Github</span>
-                </a>
-              </li>
+  <div class="container-fluid">
 
-              <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/aaron-cunliffe-727695131/" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
-                  <i class="fa fa-linkedin-square fa-fw"></i>
-                  <span class="network-name">Linkedin</span>
-                </a>
-              </li>
+    <div class="row">
 
-              <li class="list-inline-item">
-                <a href="mailto:aaroncunliffe@live.co.uk" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
-                  <i class="fa fa-envelope-o fa-fw"></i>
-                  <span class="network-name">Email - aaroncunliffe@live.co.uk</span>
-                </a>
-              </li>
+      <div class="col-md-8 offset-md-2">
+        <h4>About me</h4>
+        <p>Placeholder.</p>
+      </div>
+
+      
+    </div>
+      <div class="row">
+          <div class="col-md-4 offset-md-2">
+            <h5>Placeholder:</h5>
+            <ul>
+              <li>Placeholder.</li>
+              <li>Placeholder.</li>
+              <li>Placeholder.</li>
             </ul>
           </div>
-
-
+    
+          <div class="col-md-4">
+            <h5>Placeholder:</h5>
+            <ul>
+              <li>Placeholder.</li>
+              <li>Placeholder.</li>
+              <li>Placeholder.</li>
+            </ul>
+          </div>
         </div>
+    
+
+  </div>
+
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <h2>Dissertation Project - Preserving Video Game History: Gameboy Emulator</h2>
+        <p>
+          A
+          <a href="https://github.com/Aaroncunliffe/GameboyEmulator/" target="_blank">
+            <u>Gameboy emulator</u>
+          </a> was created from the ground up using C++ with the SDL2 graphics library. The goal for 'good enough' playability,
+          with minimal impacts to game playability. Sound emulation was ruled out from the beginning due to its complexity.
+          The end product is able to run the vast majority of original Gameboy games, with only very minor graphical errors
+          on only a small number of games. Agile techniques (MoSCoW, Timeboxing and Kanban) were used to ensure features
+          with the highest benefit to the end product were developed first and any issues were identified and delt with before
+          they could have any drastic consequences to the development process.
+        </p>
+
+        <ul class="list-inline banner-social-buttons ml-auto">
+          <li class="list-inline-item">
+            <a href="https://github.com/Aaroncunliffe/GameboyEmulator" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-github-square fa-fw"></i>
+              <span class="network-name">Project Github</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com/watch?v=BW43aDCDM50" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default">
+              <i class="fa fa-youtube-square fa-fw"></i>
+              <span class="network-name">Project Video</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://medium.com/@aaroncunliffe" onmousedown="event.preventDefault()" target="_blank" class="btn btn-default disabled">
+              <i class="fa fa-medium fa-fw"></i>
+              <span class="network-name">Medium article: coming soon</span>
+            </a>
+          </li>
+        </ul>
+
+
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 offset-md-2">
+        <h5>Challenges:</h5>
+        <ul>
+          <li>Emulating Hardware in software – This is a complex process, requires technical understanding of the original hardware's
+            internal working. Lots of research and experimentation required.</li>
+          <li>Large code base with complex responsibilities, a lot could go wrong. Especially with the instruction programming.</li>
+          <li>Debugging such a system is extremely difficult.</li>
+        </ul>
+      </div>
+
+      <div class="col-md-4">
+        <h5>Learning outcomes:</h5>
+        <ul>
+          <li>Experience writing code with performance in mind.</li>
+          <li>Practice with analysing technical documents.</li>
+          <li>Exerience with debugging a difficult, complex system.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-md-8 offset-md-2">
+        <h5>Screenshot Gallery:</h5>
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/TetrisMenu.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/TetrisGameplay.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/SuperMarioLandTitleScreen.png" height="200"
+          width="200" class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/SuperMarioLandGameplay.png" height="200"
+          width="200" class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/ZeldaTitleScreen.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/ZeldaSaveFile.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/ZeldaGameplay.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/MercenaryForceTitleScreen.png" height="200"
+          width="200" class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/MercenaryForceCharSelect.png" height="200"
+          width="200" class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/MercenaryForceGameplay.png" height="200"
+          width="200" class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/CustomROM.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
+
+        <img src="https://github.com/Aaroncunliffe/GameboyEmulator/raw/master/Screenshots/BlarggsTestRom.png" height="200" width="200"
+          class="img-fluid mx-auto gb-img">
 
 
 
@@ -121,13 +267,14 @@
 
     </div>
 
-
   </div>
+
   <footer class="footer">
-    <div class="container">
+    <div class="col-md-8 offset-md-2">
       <span class="text-muted">© Copyright Aaron Cunliffe 2018</span>
     </div>
   </footer>
+
 
 
   <!-- Optional JavaScript -->
